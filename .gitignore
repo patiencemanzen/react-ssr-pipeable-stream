@@ -1,13 +1,11 @@
-./node_modules
-./ssr-client/node_modules
-./ssr-client/.pnp
-./ssr-client/.pnp.js
+.pnp
+.pnp.js
 
 # testing
-./ssr-client/coverage
+coverage
 
 # production
-./ssr-client/build
+build
 
 # misc
 .DS_Store
@@ -19,3 +17,4 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+node_modules
