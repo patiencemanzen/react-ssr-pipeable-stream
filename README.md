@@ -1,4 +1,4 @@
-# React 18 SSR example using Pipeable Stream
+# React 18 SSR using Pipeable Stream 🪴 Deployed on Microsoft Azure
 
 In this example you can see that how you can render a React 18 application on server-side (node) application.
 I'm using React 18's renderToPipeableStream function.
