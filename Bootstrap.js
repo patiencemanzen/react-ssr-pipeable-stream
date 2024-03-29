@@ -1,5 +1,7 @@
-require('ignore-styles');
-require('@babel/register')({
+import 'ignore-styles'; 
+import '@babel/register';
+
+babel.register({
     ignore: [/(node_modules)/],
     presets: [
         "@babel/preset-env",
@@ -17,4 +19,4 @@ require('@babel/register')({
     ]
 });
 
-require("./Server.js");
+import './Server.js';

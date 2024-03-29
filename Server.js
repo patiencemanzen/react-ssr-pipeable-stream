@@ -36,8 +36,7 @@ app.get("/$", (req, res) => {
   res.socket.on("error", (error) => console.log("Fatal error occured", error));
 
   let didError = false;
-  const stream = ReactDOMServer.renderToPipeableStream(
-    <AppSSR bootStrapCSS={bootstrapCSS} />,
+  const stream = ReactDOMServer.renderToPipeableStream(<AppSSR bootStrapCSS={bootstrapCSS} />,
     {
       bootstrapScripts,
       onShellReady: () => {
